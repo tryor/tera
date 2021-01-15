@@ -29,6 +29,7 @@ pub use crate::builtins::testers::Test;
 pub use crate::context::Context;
 pub use crate::errors::{Error, ErrorKind, Result};
 #[doc(hidden)]
+pub use crate::renderer::Renderer;
 pub use crate::template::Template;
 pub use crate::tera::Tera;
 pub use crate::utils::escape_html;
